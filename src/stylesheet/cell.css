@@ -1,0 +1,20 @@
+.cell {
+	width: 5vw;
+	height: 10vh; /* 16:9 Aspect Ratio*/
+	cursor: pointer;
+	border-radius: 50%;
+	margin: 1% 4%;
+	overflow: hidden;
+}
+
+.cell[data-player = "0"] {
+	background-color: white;
+}
+
+.cell[data-player = "1"] {
+	background-color: black;
+}
+
+.cell[data-player = "2"] {
+	background-color: yellow;
+}
